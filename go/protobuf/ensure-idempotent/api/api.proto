@@ -12,7 +12,7 @@ message DummyReadOnlyResponse {
 }
 
 message DummyReadWriteRequest {
-    // string idempotency_key = 1;
+    string idempotency_key = 1;
     string dummy_value = 2;
 }
 
