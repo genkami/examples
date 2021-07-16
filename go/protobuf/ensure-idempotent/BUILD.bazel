@@ -1,0 +1,4 @@
+load("@bazel_gazelle//:def.bzl", "gazelle")
+
+# gazelle:prefix github.com/genkami/examples/go/protobuf/ensure-idempotent
+gazelle(name = "gazelle")
